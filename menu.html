@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu — Joezano's Pizza | Hamilton, MI</title>
+  <meta name="description" content="Explore our menu: pizza, subs, wraps, pasta, salads, starters and more. Order online for carryout or delivery from Joezano's Pizza in Hamilton, MI.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Menu — Joezano's Pizza">
+  <meta property="og:description" content="Pizza, subs, wraps, pasta dinners, and more. See our highlights and order online!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/pizza11.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/avif" href="assets/logo.avif">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="Joezano's Pizza Home">
+        <img src="assets/logo.avif" alt="Joezano's Pizza logo" width="140" height="42">
+        <div class="navbar__brand">
+          <span class="navbar__brand-name">Joezano's Pizza</span>
+          <span class="navbar__brand-tagline">Hamilton, MI</span>
+        </div>
+      </a>
+      <button class="navbar__toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="navbar__menu" id="navMenu" role="navigation">
+        <ul class="navbar__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="employment.html">Careers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="https://joezanospizza.hrpos.heartland.us/menu" class="btn btn--primary btn--sm navbar__cta">Start Order</a>
+      </div>
+    </div>
+    <div class="navbar__overlay" aria-hidden="true"></div>
+  </nav>
+
+
+  <!-- ========== PAGE HERO ========== -->
+  <header class="page-hero">
+    <div class="container" style="position:relative;">
+      <div class="hero__badge" style="margin-bottom: var(--sp-md);">
+        <span class="badge"><span class="badge__dot"></span> Slices 11 AM – 2 PM</span>
+      </div>
+      <h1 class="page-hero__title">Our Menu</h1>
+      <p class="page-hero__subtitle">Handmade pizzas, loaded subs, hearty pastas, and much more — all made fresh to order.</p>
+    </div>
+  </header>
+
+
+  <!-- ========== MAIN ========== -->
+  <main id="main">
+
+    <!-- ===== CATEGORIES ===== -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section__header text-center reveal">
+          <span class="section-label">Browse By Category</span>
+          <h2 class="section-title">What Are You Craving?</h2>
+        </div>
+
+        <div class="menu-categories reveal" role="list" aria-label="Menu categories">
+          <span class="menu-cat-chip active" role="listitem">Pizza</span>
+          <span class="menu-cat-chip" role="listitem">Starters</span>
+          <span class="menu-cat-chip" role="listitem">Sandwiches</span>
+          <span class="menu-cat-chip" role="listitem">Wraps</span>
+          <span class="menu-cat-chip" role="listitem">Pasta Dinners</span>
+          <span class="menu-cat-chip" role="listitem">Salads</span>
+          <span class="menu-cat-chip" role="listitem">Chicken</span>
+          <span class="menu-cat-chip" role="listitem">South of the Border</span>
+          <span class="menu-cat-chip" role="listitem">Dessert</span>
+          <span class="menu-cat-chip" role="listitem">Drinks</span>
+        </div>
+
+        <!-- ===== HIGHLIGHT ITEMS ===== -->
+        <div class="section__header text-center reveal" style="margin-top:var(--sp-xl);">
+          <span class="section-label">Fan Favorites</span>
+          <h2 class="section-title">Menu Highlights</h2>
+          <p class="section-subtitle mx-auto">Here's a taste of what we offer. Check out the full menu to see everything and customize your order.</p>
+        </div>
+
+        <div class="menu-highlights-grid stagger-children">
+
+          <!-- Item 1 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/10_cuz_gb_1720902016.jpeg" alt="Cheese Garlic Bread" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">10" Cheese Garlic Bread</h3>
+              <p class="menu-item__desc">Toasted garlic bread topped with melted mozzarella blend.</p>
+              <span class="menu-item__price">$5.75</span>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/breadsticks111.jpg" alt="Breadsticks" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Breadsticks</h3>
+              <p class="menu-item__desc">Fresh dough, garlic butter, romano — served with pizza sauce.</p>
+              <span class="menu-item__price">$6.90</span>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/C_cz_1721227138.jpeg" alt="Cheesy Breadsticks" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Cheesy Breadsticks</h3>
+              <p class="menu-item__desc">Mozzarella blend on fresh dough, served with pizza sauce.</p>
+              <span class="menu-item__price">$9.78</span>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/pizza11.jpg" alt="Specialty Pizza" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Meat Crusties</h3>
+              <p class="menu-item__desc">Bacon, pepperoni, sausage, mozzarella — with dipping sauce.</p>
+              <span class="menu-item__price">$11.49</span>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/pizza2.jpg" alt="Rogue Crusties" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Rogue Crusties</h3>
+              <p class="menu-item__desc">Build your own: choose your sauce + 3 toppings + dipping sauce.</p>
+              <span class="menu-item__price">$11.49</span>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/Philly_1721227952.jpeg" alt="Philly Cheesesteak Sub" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Philly Sub</h3>
+              <p class="menu-item__desc">Loaded steak, peppers, onions & melted cheese on a toasted hoagie.</p>
+              <span class="menu-item__price">$9.99</span>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/Alfredo_1721154455.jpeg" alt="Alfredo Pasta" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Alfredo Pasta</h3>
+              <p class="menu-item__desc">Creamy alfredo sauce over fresh pasta — add chicken or shrimp.</p>
+              <span class="menu-item__price">$10.99</span>
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/Spaghetti_meat_ball_1721154619.jpeg" alt="Spaghetti and Meatballs" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Spaghetti & Meatballs</h3>
+              <p class="menu-item__desc">Hearty meatballs over spaghetti in house marinara sauce.</p>
+              <span class="menu-item__price">$10.99</span>
+            </div>
+          </div>
+
+          <!-- Item 9 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/salad11.jpg" alt="Caesar Salad" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Caesar Salad</h3>
+              <p class="menu-item__desc">Crisp romaine, parmesan, croutons & creamy Caesar dressing.</p>
+              <span class="menu-item__price">$7.99</span>
+            </div>
+          </div>
+
+          <!-- Item 10 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/Greek_1721228382.jpeg" alt="Greek Salad" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Greek Salad</h3>
+              <p class="menu-item__desc">Fresh greens, feta, olives, tomatoes, peppers & Greek dressing.</p>
+              <span class="menu-item__price">$8.49</span>
+            </div>
+          </div>
+
+          <!-- Item 11 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/Parm_1721227669.jpeg" alt="Chicken Parmesan" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Chicken Parmesan</h3>
+              <p class="menu-item__desc">Breaded chicken topped with marinara and melted mozzarella.</p>
+              <span class="menu-item__price">$11.99</span>
+            </div>
+          </div>
+
+          <!-- Item 12 -->
+          <div class="menu-item">
+            <div class="menu-item__img">
+              <img src="assets/Ff_1721177564.jpeg" alt="Chicken and Fries" loading="lazy">
+            </div>
+            <div class="menu-item__info">
+              <h3 class="menu-item__name">Chicken & Fries</h3>
+              <p class="menu-item__desc">Crispy chicken tenders served with golden fries & dipping sauce.</p>
+              <span class="menu-item__price">$8.99</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Full Menu CTA -->
+        <div class="full-menu-cta reveal" style="margin-top:var(--sp-2xl);">
+          <h3 class="full-menu-cta__title">Ready to See Everything?</h3>
+          <p class="full-menu-cta__text">Our full menu has even more options — build your own pizza, specialty pies, wraps, pasta dinners, desserts, and plenty of sides. Customize everything exactly how you like it.</p>
+          <a href="https://joezanospizza.hrpos.heartland.us/menu" class="btn btn--primary btn--lg">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            View Full Menu & Order Online
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== SLICES PROMO ===== -->
+    <section class="section--accent promo-band">
+      <div class="container promo-band__inner reveal">
+        <span class="badge badge--cream">
+          <span class="badge__dot" style="background:#2a2a2a;"></span>
+          Lunch Special
+        </span>
+        <h2 class="promo-band__title">Slices Available 11 AM – 2 PM</h2>
+        <p class="promo-band__text">Perfect for a quick lunch. Grab a fresh slice (or a few!) and get back to your day.</p>
+        <a href="https://joezanospizza.hrpos.heartland.us/menu" class="btn btn--secondary">Order Now</a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="navbar__logo" aria-label="Joezano's Pizza Home">
+            <img src="assets/logo.avif" alt="Joezano's Pizza" width="130" height="42" loading="lazy">
+          </a>
+          <p class="footer__brand-desc">Casual eatery turning out pizzas, subs and other familiar eats — proudly serving Hamilton, MI.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="employment.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Our Menu</h4>
+          <ul class="footer__links">
+            <li><a href="menu.html">Pizza</a></li>
+            <li><a href="menu.html">Subs & Wraps</a></li>
+            <li><a href="menu.html">Pasta Dinners</a></li>
+            <li><a href="menu.html">Starters</a></li>
+            <li><a href="https://joezanospizza.hrpos.heartland.us/menu">Order Online</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact">
+            <p>
+              3606 Lincoln Rd<br>Hamilton, MI 49419<br><br>
+              <a href="tel:+12692641280">(269) 264-1280</a><br><br>
+              Mon – Sat: 11 AM – 8:45 PM<br>Sun: Closed
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Joezano's Pizza. All rights reserved.</span>
+        <span>Made with care in Hamilton, MI</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
